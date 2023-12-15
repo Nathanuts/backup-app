@@ -1,0 +1,9 @@
+name = "ineedbackup"
+compatibility_date = "2023-06-28"
+
+kv_namespaces = [
+    { binding = "se_backup", id = "d2349e8c2c9f460eb3bce92222d62bb8" , preview_id = "851dafc0619b4514a323e198abc3ec3c" },
+]
+
+[placement]
+mode = "smart"

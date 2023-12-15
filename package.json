@@ -1,0 +1,15 @@
+{
+  "name": "ineedbackup",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "3.1.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev src/index.js",
+    "deploy": "wrangler deploy src/index.js"
+  },
+  "dependencies": {
+    "@easepick/bundle": "^1.2.1"
+  }
+}
